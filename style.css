@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.shoes {
+   position: absolute;
+   top: 50%;
+   left: 50.4%;
+   transform: translate(-50%,-50%);
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background: rgb(32, 31, 31);
+    display: flex;
+  justify-content: space-around;
+  align-self: center;
+  align-content: center;
+  grid-row-gap: 50px;
+  flex-wrap: wrap;
+  grid-column-gap:20px;
+}
+.text{
+    font-size: 100px;
+    max-width: 200px;
+    color: white;
+    margin-top: 135px;
+}
+
+.demo{
+    font-size: 90px;
+    transition: ease .3s;
+    max-width: 200px;
+    color: white;
+    margin-top: 240px;
+}
+.flex-center{
+  display: flex;
+  align-self: center;
+  grid-row-gap: 50px;
+  flex-wrap: wrap;
+  grid-column-gap: 200px;
+  align-content: center;
+}
+
+.circle {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(243, 185, 24);
+}
+
+.page3{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(27, 157, 218);
+}
+
+
+.page4{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(55, 207, 131);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1281px) {
+    .text{
+        display: none;
+    }
+    .demo {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .text{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+       .text{
+           display: none;
+       }
+       .circle{
+           width: 300px;
+           height: 300px;
+       }
+       .shoes{
+           width: 60%;
+       }
+  }
